@@ -1,5 +1,7 @@
-import sum from "./skeleton";
+import seriesSum from "./skeleton";
 
-test("sum adds two numbers", () => {
-  expect(sum(4, 3)).toBe(7);
+test("basic tests", () => {
+  expect(seriesSum(1)).toBe("1.00");
+  expect(seriesSum(2)).toBe("1.25");
+  expect(seriesSum(5)).toBe("1.57");
 });
